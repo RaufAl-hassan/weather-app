@@ -1,0 +1,23 @@
+body {
+    color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 650px;
+    margin: 0 auto;
+    padding: 0 10px;
+    height: 100vh;
+}
+
+header {
+    margin-bottom: 48px;
+}
+
+header a {
+    color: #888;
+    text-decoration: none;
+    margin-right: 16px;
+}
+
+footer {
+    color: #888;
+    border-top: 1px solid #888;
+}
