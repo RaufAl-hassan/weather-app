@@ -31,7 +31,7 @@ searchForm.addEventListener("submit", async (e) => {
 
   const location = searchInput.value;
 
-  url = `http://localhost:3000/weather?address=${location}`;
+  url = `/weather?address=${location}`;
 
   const data = await getWeather(url);
 
